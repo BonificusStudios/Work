@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    
+    <style>
+      body {
+        background-color: #000000;
+        margin: 0px;
+        overflow: hidden;
+      }
+    </style>
+
+    <title>Bonificus Lounge</title>
+  </head>
+<body>	
+	
+
+<div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/85/three.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js" integrity="sha512-yNJzAsg5JyP91u+sLHlUDULMBd3hmEiVkYeeN1cQBKaLZ7EyT6oH2u5THNIRM2Fu6VKcZJv+F/QAp1h/qzy9Ow==" crossorigin="anonymous"></script>
+	<script src="https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/loaders/GLTFLoader.js"></script>
+	<script type="module">
+
+		
+		var loader = new THREE.GLTFLoader();
+
+		loader.load( 'https://drive.google.com/file/d/1y2iRZObBlQRlzph4EWNEXIWsQXl3F785/view?usp=sharing' ),
+	function ( gltf )
+	{
+			poker = gltf.scene;
+			poker.scale.set(2, 2, 2);
+			poker.position.y= 1;
+			scene.add(poker);
+	}
+	</script>
+
+		</div>
+	</body>
+</html>
+
+		
+
+  
